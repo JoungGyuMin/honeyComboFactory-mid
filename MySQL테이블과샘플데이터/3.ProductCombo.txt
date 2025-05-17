@@ -1,0 +1,79 @@
+-- 3. PRODUCT_COMBO 테이블
+
+-- 1) CU 
+INSERT INTO PRODUCT_COMBO 
+(PRODUCT_COMBO_NUMBER, PRODUCT_COMBO_NAME, PRODUCT_COMBO_IMAGE, PRODUCT_COMBO_STORE, PRODUCT_COMBO_INFORMATION, PRODUCT_COMBO_CATEGORY) 
+VALUES
+(33000, '시저치킨샌드&아메리카노', 'assets/img/comboProduct/33000.jpg', 1, '든든한 치킨샌드와 진한 아메리카노 콤보', 'MD'),
+(33001, '돈까스샐러드김밥&카페라떼', 'assets/img/comboProduct/33001.jpg', 1, '바삭한 김밥과 부드러운 라떼의 만남', 'CHEAP'),
+(33002, '크리미맛살샐러드&밀키스', 'assets/img/comboProduct/33002.jpg', 1, '상큼한 샐러드와 탄산의 조화', 'INFLUENCER'),
+(33003, '숯불향치킨삼각&게토레이', 'assets/img/comboProduct/33003.jpg', 1, '불향 가득 삼각김밥과 시원한 게토레이', 'CHEAP'),
+(33004, '김치제육&카페라떼 카라멜', 'assets/img/comboProduct/33004.jpg', 1, '매콤한 김밥과 달달한 라떼 조합', 'MD'),
+(33005, '닭가슴살&스프라이트', 'assets/img/comboProduct/33005.jpg', 1, '닭가슴살 샐러드와 청량한 스프라이트', 'CHEAP'),
+(33006, '토마토파스타&라떼', 'assets/img/comboProduct/33006.jpg', 1, '깔끔한 파스타와 라떼 콤보', 'INFLUENCER'),
+(33007, '리얼비프버거&데미소다 피치', 'assets/img/comboProduct/33007.jpg', 1, '진한 버거와 달콤한 탄산의 조화', 'MD'),
+(33008, '마요닭갈비&레쓰비', 'assets/img/comboProduct/33008.jpg', 1, '고소한 주먹밥과 부드러운 라떼 세트', 'CHEAP'),
+(33009, '대만식연유&미에로화이바', 'assets/img/comboProduct/33009.jpg', 1, '달콤한 연유샌드와 상쾌한 이너뷰티 콤보', 'INFLUENCER');
+
+-- 2) GS25
+INSERT INTO PRODUCT_COMBO (PRODUCT_COMBO_NUMBER, PRODUCT_COMBO_NAME, PRODUCT_COMBO_IMAGE, PRODUCT_COMBO_STORE, PRODUCT_COMBO_INFORMATION, PRODUCT_COMBO_CATEGORY) VALUES 
+(34000, '모둠분식세트&유부묵은지김밥', 'assets/img/comboProduct/34000.jpg', 2, '이벤트순창)모둠분식세트와 유부묵은지김밥의 푸짐한 한끼 조합', 'MD'),
+(34001, '오모리부대찌개&가쓰오우동', 'assets/img/comboProduct/34001.jpg', 2, 'Y)오모리부대찌개라면(대컵)와 유어스)가쓰오우동145G의 푸짐한 한끼 조합', 'CHEAP'),
+(34002, '고추장제육 &멕시칸칠리핫도그', 'assets/img/comboProduct/34002.jpg', 2, '이벤트순창)고추장제육와 멕시칸칠리핫도그의 푸짐한 한끼 조합', 'INFLUENCER'),
+(34003, '틈새라면&치킨청양마요', 'assets/img/comboProduct/34003.jpg', 2, 'Y)틈새라면(대컵)와 순살치킨)청양마요의 푸짐한 한끼 조합', 'MD'),
+(34004, '고깃집맛된장국&핫도그', 'assets/img/comboProduct/34004.jpg', 2, '유어스)고깃집맛된장국(컵국)와 오리지널핫도그의 푸짐한 한끼 조합', 'CHEAP'),
+(34005, '얼큰우동&반숙달래간장', 'assets/img/comboProduct/34005.jpg', 2, '유어스)얼큰우동134G와 풀)반숙달래간장의 푸짐한 한끼 조합', 'INFLUENCER'),
+(34006, '케이준치킨샐러드&삼겹살구이', 'assets/img/comboProduct/34006.jpg', 2, 'NEW)케이준치킨샐러드와 NEW)참숯삼겹살구이의 푸짐한 한끼 조합', 'MD'),
+(34007, '치킨마요&세숫대야물냉면', 'assets/img/comboProduct/34007.jpg', 2, '혜자)착한가격치킨마요1와 유어스)세숫대야물냉면의 푸짐한 한끼 조합', 'CHEAP'),
+(34008, '공화춘매운짬뽕&홍라면매운치즈면', 'assets/img/comboProduct/34008.jpg', 2, 'Y)공화춘매운토마토짬뽕(대컵)와 Y)홍라면매운치즈면(대컵)의 푸짐한 한끼 조합', 'INFLUENCER'),
+(34009, '혜자고추장제육&오모리참치찌개', 'assets/img/comboProduct/34009.jpg', 2, '이벤트순창)혜자고추장제육1와 Y)오모리참치찌개라면(대컵)의 푸짐한 한끼 조합', 'MD');
+
+-- 3) 갓성비
+INSERT INTO PRODUCT_COMBO (PRODUCT_COMBO_NUMBER, PRODUCT_COMBO_NAME, PRODUCT_COMBO_IMAGE, PRODUCT_COMBO_STORE, PRODUCT_COMBO_INFORMATION, PRODUCT_COMBO_CATEGORY) VALUES 
+(32000, '아플 때 먹는 죽세트', 'assets/img/comboProduct/32000.jpg', 0, '아픈 사람을 위해 준비했어요 영양만점 죽 세트', 'CHEAP'),
+(32001, '탄산 사랑하는 사람 모여라', 'assets/img/comboProduct/32001.jpg', 0, '탄산을 사랑하는 사람들을 위한 콜라 + 사이다 세트', 'CHEAP'),
+(32002, '안주와 숙취 해소 세트', 'assets/img/comboProduct/32002.jpg', 0, '안주로 라면, 헛개로 숙취 해소', 'CHEAP'),
+(32003, '머리 감기 세트', 'assets/img/comboProduct/32003.jpg', 0, '샴푸 + 린스', 'CHEAP'),
+(32004, '고기 세트', 'assets/img/comboProduct/32004.jpg', 0, '국거리용 고기 + 영양닭죽', 'CHEAP'),
+(32005, '칫솔 세트', 'assets/img/comboProduct/32005.jpg', 0, '뉴미세모칫솔과 뉴초극세모칫솔이 들어있어요', 'CHEAP'),
+(32006, '간단 간식 세트', 'assets/img/comboProduct/32006.jpg', 0, '간단하게 요깃거리하기 좋아요', 'CHEAP'),
+(32007, '피시방 세트', 'assets/img/comboProduct/32007.jpg', 0, '라면 + 콜라 세트입니다', 'CHEAP'),
+(32008, '양치 세트', 'assets/img/comboProduct/32008.jpg', 0, '치약 + 칫솔 세트', 'CHEAP'),
+(32009, '레몬 에이드 + 버터오징어김스낵 세트', 'assets/img/comboProduct/32009.jpg', 0, '레몬 에이드 + 버터 오징어 김스낵이 들어있어요', 'CHEAP');
+
+-- 4) MD픽
+INSERT INTO PRODUCT_COMBO 
+(PRODUCT_COMBO_NUMBER, PRODUCT_COMBO_NAME, PRODUCT_COMBO_IMAGE, PRODUCT_COMBO_STORE, PRODUCT_COMBO_INFORMATION, PRODUCT_COMBO_CATEGORY) 
+VALUES
+(31000, '오징어 세트', 'assets/img/comboProduct/31000.jpg', 0, '오징어를 좋아하는 당신을 위해 준비했습니다.', 'MD'),
+(31001, '활력 세트', 'assets/img/comboProduct/31001.jpg', 0, '피곤한 자신에게 선물하세요.', 'MD'),
+(31002, '과일 주스 세트', 'assets/img/comboProduct/31002.jpg', 0, '알로에 & 사과 & 베리 세트입니다.', 'MD'),
+(31003, '생활 용품 세트', 'assets/img/comboProduct/31003.jpg', 0, '간단하게 마련하세요. 물티슈 + 니트릴 장갑 세트입니다.', 'MD'),
+(31004, '한끼 해결 세트', 'assets/img/comboProduct/31004.jpg', 0, '된장국 + 삼각김밥 조합입니다.', 'MD'),
+(31005, '에그바소시지&보성녹차아이스티', 'assets/img/comboProduct/31005.jpg', 0, '에그바소시지 + 보성녹차아이스티 조합입니다.', 'MD'),
+(31006, '건강 세트', 'assets/img/comboProduct/31006.jpg', 0, '액티비아 + 루꼴라샌드 조합입니다.', 'MD');
+
+-- 5) 인플루언서식
+INSERT INTO PRODUCT_COMBO 
+(PRODUCT_COMBO_NUMBER, PRODUCT_COMBO_NAME, PRODUCT_COMBO_IMAGE, PRODUCT_COMBO_STORE, PRODUCT_COMBO_CATEGORY, PRODUCT_COMBO_INFORMATION) 
+VALUES
+(30000, '부대찌개컵라면', 'assets/img/comboProduct/30000.png', 0, 'INFLUENCER', '문세윤 from 맛있는 녀석들'),
+(30001, '불닭게티', 'assets/img/comboProduct/30001.png', 0, 'INFLUENCER', '강다니엘 from 이불밖은 위험해'),
+(30002, 'V LIVE', 'assets/img/comboProduct/30002.png', 0, 'INFLUENCER', 'BTS정국 팬사랑 음식조합'),
+(30003, '도영Pick', 'assets/img/comboProduct/30003.png', 0, 'INFLUENCER', 'NCT도영 from 유튜브'),
+(30004, '사나Pick', 'assets/img/comboProduct/30004.png', 0, 'INFLUENCER', '트와이스 사나 from 아이돌룸'),
+(30005, '제니Pick', 'assets/img/comboProduct/30005.png', 0, 'INFLUENCER', '블랙핑크 제니 from 편스토랑'),
+(30006, '고원정식', 'assets/img/comboProduct/30006.png', 0, 'INFLUENCER', '이달의소녀 고원'),
+(30007, '불그리', 'assets/img/comboProduct/30007.png', 0, 'INFLUENCER', 'BTS 정국'),
+(30008, '규민Pick', 'assets/img/comboProduct/30008.png', 0, 'INFLUENCER', '버그찍 규민'),
+(30009, '입짧은햇님Pick', 'assets/img/comboProduct/30009.png', 0, 'INFLUENCER', '먹방유튜버: 순두부 라면에 계란과 참치를 넣어 더욱 부드럽게 먹는 스타일'),
+(30010, '송강Pick', 'assets/img/comboProduct/30010.png', 0, 'INFLUENCER', '배우 송강: 피자를 잘라 컵라면 국물에 찍어먹는 조합'),
+(30011, '박막례할머니Pick', 'assets/img/comboProduct/30011.png', 0, 'INFLUENCER', '유튜버: 감자탕 컵라면 국물에 햇반을 말아먹으면 감칠맛이 더해짐'),
+(30012, '회사원A Pick', 'assets/img/comboProduct/30012.png', 0, 'INFLUENCER', '유튜버: 콘치즈 삼각김밥을 치즈라면과 함께 먹으면 고소한 맛이 극대화됨'),
+(30013, '파스타볶이', 'assets/img/comboProduct/30013.png', 0, 'INFLUENCER', '민경장군 from 맛있는 녀석들'),
+(30014, '조진세 라면 납작 당면', 'assets/img/comboProduct/30014.png', 0, 'INFLUENCER', '개그맨 조진세 from 유튜브'),
+(30015, '짬짜면', 'assets/img/comboProduct/30015.png', 0, 'INFLUENCER', '흑백요리사 윤남노'),
+(30016, '바샷추', 'assets/img/comboProduct/30016.png', 0, 'INFLUENCER', '해외인플루언서 from 유튜브'),
+(30017, '사리곰탕 만둣국', 'assets/img/comboProduct/30017.png', 0, 'INFLUENCER', '이제이레시피 from 유튜브'),
+(30018, '불닭버거', 'assets/img/comboProduct/30018.png', 0, 'INFLUENCER', '알쿡 from 유튜버'),
+(30019, '불닭치즈볶음밥', 'assets/img/comboProduct/30019.png', 0, 'INFLUENCER', 'tvN 편의점을 털어라');
