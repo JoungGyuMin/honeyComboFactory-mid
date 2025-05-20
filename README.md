@@ -12,12 +12,7 @@
 </p>
 
 <p align="center">
-  <!-- 두 번째 줄: 프레임워크 및 라이브러리 -->
-  <img src="https://img.shields.io/badge/JDBC-007396?style=for-the-badge&logo=java&logoColor=white" alt="JDBC" />&nbsp;
-</p>
-
-<p align="center">
-  <!-- 세 번째 줄: 데이터베이스 -->
+  <!-- 두 번째 줄: 데이터베이스 -->
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
 </p>
 
