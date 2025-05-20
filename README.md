@@ -23,7 +23,19 @@ git clone https://github.com/JoungGyuMin/honeyComboFactory-mid.git
 
 ## 주요 패키지 설명 📚
 
-### DB (biz) 💼
+### DB (dto) 💼
+- **boardCombo**: 게시판 관련 클래스 📝
+- **boardComboLiked**: 게시글 좋아요 관련 클래스 ❤️
+- **member**: 회원 관련 클래스 👥
+- **productCombo**: 꿀조합 상품 관련 클래스 🍯🛍️
+- **productComboComponent**: 꿀조합 상품 구성품 관련 클래스 🧩
+- **productSingle**: 개별 상품 관련 클래스 📦
+- **purchase**: 구매 관련 클래스 🛒
+- **purchaseDetail**: 구매 상세정보 관련 클래스 📄
+- **review**: 리뷰 관련 클래스 💬
+
+### 크롤링 (listnerCrawling) 🕷️
+- **ListnerCrawling**: 서버 실행 시 크롤링 관련 클래스 ⚙️
 
 ## 프로젝트 주요 기능 ✨
 
