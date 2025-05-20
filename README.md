@@ -35,7 +35,32 @@ git clone https://github.com/JoungGyuMin/honeyComboFactory-mid.git
 - **review**: 리뷰 관련 클래스 💬
 
 ### 크롤링 (listnerCrawling) 🕷️
-- **ListnerCrawling**: 서버 실행 시 크롤링 관련 클래스 ⚙️
+- **ListnerCrawling**: 서버 실행 시 크롤링 관련 클래스 🕸️
+
+### 모델 공통 (model.common) 🛠️
+- **JDBCUtil**: MySQL 연결 유틸리티 🔌
+
+### 모델 크롤링 (model.crawling) 🛠️
+- **StoreCU**: Cu상품 크롤링 기능 관련 클래스 🏪
+- **StoreGS25**: Gs25상품 크롤링 기능 관련 클래스 🏪
+
+### 컨트롤러 공통 (controller.common) 🎛️
+- **Action**: 컨트롤러 액션이 구현하는 공통 인터페이스 🔗
+- **ActionFactory**: 요청 URL에 맞는 컨트롤러 액션 객체를 반환하는 팩토리 클래스 ⚙️
+- **ActionForward**: 요청 처리 결과 이동 경로와 방식을 저장해 컨트롤러의 페이지 이동을 관리하는 DTO 🚦
+- **FrontControllerDid**: *.did 패턴의 모든 요청을 받아 처리하는 Front Controller 서블릿 🎯
+- **FrontControllerDo**: *.do 패턴의 모든 요청을 받아 처리하는 Front Controller 서블릿 🎯
+
+### 컨트롤러 동기 (*.action) 🔄
+- **move**: 페이지 이동 관련 클래스 🚀
+- **member**: 회원 기능 관련 클래스 👤
+
+### 컨트롤러 비동기 (*.async) ⚡
+- **member**: 회원 기능 관련 클래스 👥
+- **board.combo**: 게시판 기능 관련 클래스 📝
+- **product.common**: 리뷰 기능 관련 클래스 💬
+- **product.combo**: 꿀조합 상품 기능 관련 클래스 🍯🛍️
+- **product.single**: 개별 상품 기능 관련 클래스 📦
 
 ## 프로젝트 주요 기능 ✨
 
