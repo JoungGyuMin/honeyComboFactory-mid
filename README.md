@@ -27,3 +27,6 @@ git clone https://github.com/JoungGyuMin/honeyComboFactory-mid.git
 
 ## 프로젝트 주요 기능 ✨
 
+- 브랜드 혼합 세트 상품 제공 🧃
+- 상품 정보 통합 검색 및 필터링 🔍
+- 리뷰 및 별점 시스템 🌟
