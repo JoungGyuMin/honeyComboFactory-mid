@@ -19,7 +19,11 @@
 ## 프로젝트 클론 📥
 git clone https://github.com/JoungGyuMin/honeyComboFactory-mid.git
 
+## 프로젝트 디렉토리 구조 🗂️
+
 ## 주요 패키지 설명 📚
 
 ### DB (biz) 💼
+
+## 프로젝트 주요 기능 ✨
 
