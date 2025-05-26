@@ -56,19 +56,29 @@ honeyComboFactory/
 │           │   │   ├── scss/
 │           │   │   └── webfonts/
 │           │   ├── Doc/
+│           │   │   ├── boardDetail.jsp        # 게시글 상세 페이지
+│           │   │   ├── callback.jsp           # 네이버 로그인 콜백
+│           │   │   ├── cart.jsp               # 장바구니 페이지
+│           │   │   ├── comboBoard.jsp         # 꿀조합 게시판 페이지
+│           │   │   ├── comboProduct.jsp       # 꿀조합 상품 목록 페이지
+│           │   │   ├── CUProduct.jsp          # GU 상품 목록 페이지
+│           │   │   ├── error.jsp              # 에러 페이지
+│           │   │   ├── findAccount.jsp        # 계정 찾기 페이지
+│           │   │   ├── footer.jsp             # 푸터
+│           │   │   ├── GSProduct.jsp          # GS25 상품 목록 페이지
+│           │   │   ├── header.jsp             # 헤더
+│           │   │   ├── join.jsp               # 회원가입 페이지
+│           │   │   ├── login.jsp              # 로그인 페이지
 │           │   │   ├── main.jsp               # 메인 페이지
-│           │   │   ├── login.jsp              # 로그인
-│           │   │   ├── join.jsp               # 회원가입
-│           │   │   ├── myInfo.jsp             # 내 정보
-│           │   │   ├── comboProduct.jsp       # 콤보 상품 목록
-│           │   │   ├── productDetail.jsp      # 상품 상세
-│           │   │   ├── boardDetail.jsp        # 게시글 상세
-│           │   │   └── 기타 JSP 다수 포함...
+│           │   │   ├── myInfo.jsp             # 내 정보 페이지
+│           │   │   ├── naverlogin.jsp         # 네이버 로그인 화면 페이지
+│           │   │   ├── productDetail.jsp      # 상품 상세정보 페이지
+│           │   │   ├── purchaseDetail.jsp     # 주문 상세 페이지
+│           │   │   ├── updateBoard.jsp        # 게시글 등록 페이지
 │           ├── META-INF/
 │           └── WEB-INF/
 │               ├── lib/                       # JSTL, Servlet API, Mail 등 라이브러리
 │               └── web.xml                    # (있는 경우) 웹 설정 파일
-
 └── 기타 파일
     ├── .gitignore
     ├── README.md
